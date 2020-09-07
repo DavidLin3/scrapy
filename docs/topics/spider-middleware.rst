@@ -118,7 +118,7 @@ object gives you access, for example, to the :ref:`settings <topics-settings>`.
 
     .. method:: process_spider_exception(response, exception, spider)
 
-        This method is called when a spider or :meth:`process_spider_output`
+        This method is called when a spider or :meth:`process_spider_input`
         method (from a previous spider middleware) raises an exception.
 
         :meth:`process_spider_exception` should return either ``None`` or an
